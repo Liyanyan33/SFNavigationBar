@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SFNavigationBar_Example' do
+  pod 'SFNavigationBar', :path => '../'
+
+  target 'SFNavigationBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
