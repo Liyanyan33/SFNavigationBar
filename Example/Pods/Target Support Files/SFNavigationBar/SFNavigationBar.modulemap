@@ -1,0 +1,6 @@
+framework module SFNavigationBar {
+  umbrella header "SFNavigationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

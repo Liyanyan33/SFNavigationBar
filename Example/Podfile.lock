@@ -1,0 +1,16 @@
+PODS:
+  - SFNavigationBar (0.0.1)
+
+DEPENDENCIES:
+  - SFNavigationBar (from `../`)
+
+EXTERNAL SOURCES:
+  SFNavigationBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SFNavigationBar: e3a2c4046f06c55e9a22fad336cd39ca4ea3e5f5
+
+PODFILE CHECKSUM: 5bd0d4a88583c6ac0866ab4dbf1c9ae556d87955
+
+COCOAPODS: 1.11.2

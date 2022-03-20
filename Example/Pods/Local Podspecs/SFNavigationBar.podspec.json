@@ -1,0 +1,22 @@
+{
+  "name": "SFNavigationBar",
+  "version": "0.0.1",
+  "summary": "navigation bar about iOS of objective_c",
+  "description": "navigation bar about iOS of objective_c of liyanyan",
+  "homepage": "https://github.com/19053601/SFNavigationBar.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "19053601": "1143386318@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/19053601/SFNavigationBar.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SFNavigationBar/Classes/**/*"
+}

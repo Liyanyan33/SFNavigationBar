@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SFNavigationBar'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SFNavigationBar.'
+  s.version          = '0.0.1'
+  s.summary          = 'navigation bar about iOS of objective_c'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+navigation bar about iOS of objective_c of liyanyan
                        DESC
 
-  s.homepage         = 'https://github.com/19053601/SFNavigationBar'
+  s.homepage         = 'https://github.com/19053601/SFNavigationBar.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '19053601' => '1143386318@qq.com' }
@@ -30,8 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SFNavigationBar/Classes/**/*'
+  s.source_files = 'SFNavigationBar/Classes/*.{h,m}'
   
+  s.resources = 'SFNavigationBar/Classes/Resource/*.png'
   # s.resource_bundles = {
   #   'SFNavigationBar' => ['SFNavigationBar/Assets/*.png']
   # }
