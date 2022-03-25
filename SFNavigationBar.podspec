@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 navigation bar about iOS of objective_c of liyanyan
                        DESC
 
-  s.homepage         = 'https://github.com/19053601/SFNavigationBar.git'
+  s.homepage         = 'https://github.com/Liyanyan33/SFNavigationBar.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '19053601' => '1143386318@qq.com' }
-  s.source           = { :git => 'https://github.com/19053601/SFNavigationBar.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Liyanyan33/SFNavigationBar.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
